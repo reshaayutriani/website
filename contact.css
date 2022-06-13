@@ -1,0 +1,126 @@
+body {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px; 
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  section {
+    width: 100%;
+    height: 10vh;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    display: flex;
+  }
+  nav ul li a {
+    margin: 20px;
+    font-family: cursive;
+    color: #676666;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  nav ul li a:hover{
+    background: #191919;
+  }
+  .logo {
+    font-family: courier;
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+    h2, p{
+      font-family: 'Open Sans' sans-serif;
+      color: #FBFBFB;
+      margin: 0;
+    }
+    .contact_container{
+      display: block;
+      border: 10px solid #e441ae;
+      border-radius: 10px;
+      margin: 0 auto;
+      padding: 0 0 10px 10px;
+      max-width: 330px;
+      background-color: #e441ae;
+    }
+    .contact_title{
+      display: inline-block;
+    }
+    .contact_title h2{
+      padding: 0 10px 0 0px;
+      margin: 5px 0;
+      color: #FBFBFB;
+    }
+    .contact_form{
+      padding: 10px 10px 0 0;
+    }
+    hr{
+      width: 100%;
+      display: block;
+      margin: 5px 0;
+      height: 5px;
+      border: 0;
+      background-color: #FBFBFB;
+    }
+    input, textarea{
+      width: 100%;
+      border: 5px solid #ffffff;
+      border-radius: 5px;
+      resize: none;
+      padding: o 5px;
+      box-sizing: border-box;
+      font-family: 'Open Sans' sans-serif;
+      font-size: 18px;
+      color: #e441ae;
+    }
+    input[type="text"]{
+      padding: 0;
+      height: 40PX;
+      width: 100%;
+    }
+    input:focus, textarea:focus{
+      outline: none;
+    }
+    .contact_form-input{
+      margin: 5px 0 10px 0;
+    }
+    .contact_form-textarea{
+      margin: 5px 0;
+      width: 100%;
+      height: 100%;
+    }
+    input[type="submit"]{
+      width: 100%;
+      height: 50%;
+      background-color: #e441ae;
+      border: 0;
+      color: #FBFBFB;
+      border: 5px solid #e441ae;
+      border-radius: 5px;
+      margin: 10px 0 0 0;
+      font-family: 'Open Sans' sans-serif;
+    }
+    input[type="button"]:hover{
+      background-color: #e441ae;
+      border: #e441ae;
+    }
